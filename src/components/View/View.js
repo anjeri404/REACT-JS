@@ -27,6 +27,8 @@ class View extends Component {
             <p>Email:{this.state.post.email} </p>
             <p>Phone: {this.state.post.phone} </p>
                 <Link to="/"> <button> Back </button></Link>
+
+                
         </div>
         );
                 

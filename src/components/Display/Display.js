@@ -12,8 +12,6 @@ const Display = (props) => (
                     <Link to={'/view/' + props.id}>   
                             <button style ={{"display": "inline"}}>View </button>
                      </Link>
-                        
-                  
                         <button onClick = {props.update}> Update </button>
                         <button  onClick = {props.delete}> Delete </button> 
                     </td>

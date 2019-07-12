@@ -1,15 +1,14 @@
 .Display {
     padding: 20px;
-    border: 2px solid #000000;
-    margin: 20px;
+    border: 2px solid white;
     box-sizing: border-box;
     cursor: pointer;
+    color:white;
 }
 
 .Display button:hover,
 .Display button:active {
-color: white;
-background-color: gray;
+    color: blue;
 } 
 
 
@@ -17,14 +16,12 @@ background-color: gray;
     position: center;
     border-radius: 5px;
     padding: 10px;
-    margin: 5px;
     width: 60px;
     background-color: #67c3f5;
 
 } 
-.Display td {
-    margin: 5px;
-    padding: 5px;
+.Display td, .Display tr {
+    border: 2px solid white;
     width: 500px;
     text-align: center;
     
