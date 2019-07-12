@@ -1,0 +1,31 @@
+.Display {
+    padding: 20px;
+    border: 2px solid #000000;
+    margin: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Display button:hover,
+.Display button:active {
+color: white;
+background-color: gray;
+} 
+
+
+.Display button {
+    position: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    width: 60px;
+    background-color: #67c3f5;
+
+} 
+.Display td {
+    margin: 5px;
+    padding: 5px;
+    width: 500px;
+    text-align: center;
+    
+}

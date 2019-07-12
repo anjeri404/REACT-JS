@@ -1,0 +1,34 @@
+.AddContact {
+    padding: 20px;
+    margin: auto;
+    top: 10px;
+    position: center;
+    margin-bottom: 10px;
+
+  }
+  
+
+.AddContact label {
+    position: center;
+    display: inline-block;
+    padding: 5px;
+  }
+  .AddContact input {
+      border-radius: 5px;
+      width: 400px;
+      height: 30px; 
+  }
+ .AddContact button {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 8px 1px;
+    background-color:#67c3f5;
+
+  }
+
+.AddContact button:hover,
+.AddContact button:active {
+color: white;
+background-color: gray;
+} 
+ 
